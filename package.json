@@ -1,0 +1,18 @@
+{
+  "name": "burn-sub-upload-googledrive",
+  "version": "1.0.0",
+  "description": "Burns the first subtitle of every mkv file in a certain directory.",
+  "main": "burn.js",
+  "dependencies": {
+    "GoogleDrive": "^0.1.1",
+    "async": "^2.1.4",
+    "google-drive": "^0.0.7",
+    "handbrake-js": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node burn"
+  },
+  "author": "Robert Park",
+  "license": "ISC"
+}
